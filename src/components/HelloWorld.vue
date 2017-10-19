@@ -11,7 +11,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Hello, this website serves to showcase projects and some of the work that I've completed'
+      msg: 'Hello, this website serves to showcase projects and some of the work that I\'ve completed'
     }
   }
 }
