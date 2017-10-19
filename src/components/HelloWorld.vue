@@ -26,12 +26,12 @@
 
 
                 <div>
-                  <v-btn large color="primary" dark>
+                  <v-btn v-on:click="emailRedirect()" large color="primary" dark>
                     Email
                   </v-btn>
                   <v-btn href="https://www.linkedin.com/in/michael-tristin-lee/" large color="blue" dark>Linkedin</v-btn>
                   <v-btn color="error" dark large>Resume</v-btn>
-                  <v-btn color="success" dark large>Github</v-btn>
+                  <v-btn href="https://github.com/leem42" color="success" dark large>Github</v-btn>
                 </div>
 
 
@@ -56,7 +56,10 @@
                  that would meet the requirements of the people involved. Through this project I learned how to work <strong> vue js, npm, bootstrap,
                   material design principles. </strong> 
                </p>
-               <p> Though I can't show an actual link to the website as of the moment I can show a demo of the website in use- </p>
+               <p> Though I can't show an actual link to the website (and note that its still under active development) as of the moment I can show a demo of the website in use- </p>
+                <video src="../video/demo_mpower.mp4" class="fillParent" height="240" controls>
+                Your browser does not support the video tag.
+                </video>
         </div>
         <div class="col-8 text-left mx-auto">
                <h5> <strong> Data Visualization </strong></h5>
@@ -121,6 +124,12 @@ export default {
   data () {
     return {
       msg: 'Hello, this website serves to showcase projects and some of the work that I\'ve completed'
+    }
+  },
+  methods: {
+    emailRedirect: function () {
+      console.log('called')
+      document.location.href = 'mailto:mail@michael.leem42@gmail.com'
     }
   }
 }
