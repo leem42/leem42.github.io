@@ -4,11 +4,7 @@
       <div class="col-md-8 mx-auto">
 
           <div class="row">
-            <div class="col-md-4">
-              <img class="fillParent img-fluid" src="../images/selfie.png"> </img>
-
-            </div>
-            <div class="card col-md-8">
+            <div class="card col-md-12">
               <div class="card-body">
                 <h3><strong>Michael Tristin Lee</strong></h3>
                 <br>
@@ -22,7 +18,8 @@
                   I have worked in multiple genomics labs, including
                   Dr.Bill Noble in the UW Genome Sciences, Dr.Mona Singh at Princeton University
                   in the Lewis-Sigler Institue For Integrative Genomics, and 
-                  Dr.Rocap in the UW School of Oceanography. 
+                  Dr.Rocap in the UW School of Oceanography. In addition to this I have worked on multiple projects 
+                  that have developed my engineering skills.
 
                   <br><br> I love tennis, diving into books, and learning new things
                 </p>
@@ -32,8 +29,9 @@
                   <v-btn large color="primary" dark>
                     Email
                   </v-btn>
-                  <v-btn href="https://www.linkedin.com/in/michael-tristin-lee/" large color="success" dark>Linkedin</v-btn>
+                  <v-btn href="https://www.linkedin.com/in/michael-tristin-lee/" large color="blue" dark>Linkedin</v-btn>
                   <v-btn color="error" dark large>Resume</v-btn>
+                  <v-btn color="success" dark large>Github</v-btn>
                 </div>
 
 
@@ -48,7 +46,6 @@
     <div class="row mt-5">
         <div class="col-12"> <h4> <strong> Projects </strong> </h4></div>
         
-        
         <br>
 
         <div class="col-8 text-left mx-auto mb-3">
@@ -61,12 +58,28 @@
                </p>
                <p> Though I can't show an actual link to the website as of the moment I can show a demo of the website in use- </p>
         </div>
+        <div class="col-8 text-left mx-auto">
+               <h5> <strong> Data Visualization </strong></h5>
+               <p> 
+                 <strong> Worked with d3 js visualization package </strong> on 
+                 project demonstrating the history of protests in the United States and its impacts to the three branches
+                 of government (and conversely so). 
+                 <br>
+                 A link to the project showcase is <a href="https://cse442-17s.github.io/Loud-and-Proud/final/"> here </a>
+               </p>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12"> <h4> <strong> Research </strong> </h4></div>
+     
+
         <div class="col-8 text-left mx-auto mb-3">
                <h5> <strong> Dr. Bill Noble, University of Washington School of Genomics </strong></h5>
                <p> 
                 Extends code usability and detailed documentation for software tool segway.  
-                Works with AWS; using EC2, S3, and CloudFormation.
-                Conducts Machine Learning Study on TCGA Data to predict gene expression across cancer afflicted patients 
+                <strong> Works with AWS; using EC2, S3, and CloudFormation. </strong>
+                <strong> Conducts Machine Learning Study on TCGA Data </strong> to predict gene expression across cancer afflicted patients 
                </p>
         </div>
         <div class="col-8 text-left mx-auto mb-3">
