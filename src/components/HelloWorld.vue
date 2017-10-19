@@ -51,24 +51,43 @@
         
         <br>
 
-        <div class="col-8 text-left mx-auto">
-               <h5> Sage Bionetworks </h5>
+        <div class="col-8 text-left mx-auto mb-3">
+               <h5> <strong> Sage Bionetworks, Seattle WA </strong></h5>
                <p> 
                  <strong> Front End development with HTML, JS, and CSS </strong> on device agnostic website for 
                  persons afflicted with parkinsons disease. I worked with a UX Designer to create a reactive and responsive website 
                  that would meet the requirements of the people involved. Through this project I learned how to work <strong> vue js, npm, bootstrap,
                   material design principles. </strong> 
                </p>
-               <p> Though I can't show an actual link to the website as of the moment I can show a video demo of the website in use- </p>
+               <p> Though I can't show an actual link to the website as of the moment I can show a demo of the website in use- </p>
         </div>
-        <div class="col-8 text-left mx-auto">
-               <h5> Dr. Bill Noble Genomics Lab </h5>
+        <div class="col-8 text-left mx-auto mb-3">
+               <h5> <strong> Dr. Bill Noble, University of Washington School of Genomics </strong></h5>
                <p> 
                 Extends code usability and detailed documentation for software tool segway.  
                 Works with AWS; using EC2, S3, and CloudFormation.
                 Conducts Machine Learning Study on TCGA Data to predict gene expression across cancer afflicted patients 
                </p>
         </div>
+        <div class="col-8 text-left mx-auto mb-3">
+               <h5> <strong> Dr. Mona Singh, Princeton University Lewis-Sigler Institue for Integrative Genomics </strong></h5>
+               <p> 
+                  Conducted a research project studying the occurrence of zinc finger proteins under the guidance of Anton Persikov (PhD) and Mona Singh (PhD).
+                  Analyzed large data files of zinc finger proteins using Python.
+                  Presented a poster of research findings to fellow colleagues and professors.
+                  Collaborated in open office environment with other graduate students
+                  </p>
+        </div>
+        <div class="col-8 text-left mx-auto mb-3">
+               <h5> <strong> Dr. Gabrielle Rocap, University of Washington School of Oceanography </strong></h5>
+               <p> 
+                  Conducted research project studying Prochlorococcus.
+                  Utilized Python scripts to process meta genomic data files.
+                  Used spectrophotometer to analyze stock cultures.
+                  Presented a poster of research findings at Mary Gates Undergraduate Research Symposium.
+                  </p>
+        </div>
+
         <br>
         <br>
 
