@@ -4,18 +4,20 @@
       <div class="col-md-8 mx-auto">
 
           <div class="row">
-            <div class="card col-md-12">
+            <div class="col-md-4">
+              <img class="fillParent img-fluid" src="../images/selfie.png"> </img>
+            </div>
+            <div class="card col-md-8">
               <div class="card-body">
                 <h3><strong>Michael Tristin Lee</strong></h3>
-                <p> <i><strong> B.S. Computer Science, University of Washington</strong></i></p>
-                <p> <i><strong>Graduation Date: Spring 2018 </strong></i></p>
+                <p> <i><strong> B.S. Computer Science, University of Washington</strong></i>
                 <br>
+                <i><strong>Graduation Date: Spring 2018 </strong></i></p>
                 <p class="card-text medium dark-text text-left">
                   I'm a computer science student at the University of Washington.
                   I have a passion for genomics and its applications in understanding basic biology
                   and diseases. 
                   </p>
-                  <br>
                 <p class="card-text medium dark-text text-left">
                   I have worked in multiple genomics labs, including
                   Dr.Bill Noble in the UW Genome Sciences, Dr.Mona Singh at Princeton University
@@ -23,7 +25,6 @@
                   Dr.Rocap in the UW School of Oceanography. In addition to this I have worked on multiple projects 
                   that have developed my engineering skills.
 
-                  <br><br> I love tennis, diving into books, and learning new things!
                 </p>
 
 
@@ -46,7 +47,7 @@
     </div>
 
     <div class="row mt-5">
-        <div class="col-8 mx-auto text-left"> <h4> <strong> Projects </strong> </h4></div>
+        <div class="col-8 mx-auto text-left"> <h4> <strong><u> Projects </u></strong> </h4></div>
         
         <br>
 
@@ -68,7 +69,10 @@
                <p> 
                  <strong> Worked with d3 js visualization package </strong> on 
                  project demonstrating the history of protests in the United States and its impacts to the three branches
-                 of government (and conversely so). 
+                 of government (and conversely so). This project involved <strong> data wrangling </strong> from multiple sources, primarily done
+                 using <strong> Python </strong>. And lots of background research on historical events in the United States to derive a greater context 
+                 for our created visuals.
+                 <br>
                  <br>
 
                  A link to the project showcase is <a href="https://cse442-17s.github.io/Loud-and-Proud/final/"> here </a>
@@ -76,15 +80,18 @@
         </div>
     </div>
 
-    <div class="row mt-5">
-      <div class="col-8 text-left mx-auto"> <h4> <strong> Research </strong> </h4></div>
+    <div class="row mt-3">
+      <div class="col-8 text-left mx-auto"> <h4> <strong><u> Research </u> </strong> </h4></div>
      
 
         <div class="col-8 text-left mx-auto mb-3">
                <h5> <strong> Dr. Bill Noble, University of Washington School of Genomics </strong></h5>
                <p> 
-                Extends code usability and detailed documentation for software tool segway.  
+                Extends code usability and detailed documentation for software tool segway. Streamlined a process to download
+                data from ENCODE.
                 <strong> Works with AWS; using EC2, S3, and CloudFormation. </strong>
+               </p>
+               <p> 
                 <strong> Conducts Machine Learning Study on TCGA Data </strong> to predict gene expression across cancer afflicted patients 
                </p>
                <p> Github of the project can be found <a href="https://github.com/leem42/cse446"> here </a>. </p>
@@ -94,7 +101,8 @@
                <h5> <strong> Dr. Mona Singh, Princeton University Lewis-Sigler Institue for Integrative Genomics </strong></h5>
                <p> 
                   Conducted a research project studying the occurrence of zinc finger proteins under the guidance of Anton Persikov (PhD) and Mona Singh (PhD).
-                  Analyzed large data files of zinc finger proteins using Python.
+                  <strong> Analyzed large data files </strong> of zinc finger proteins using <strong> Python. </strong> 
+                  Used <strong> statistical measures </strong> find meaningful novel results.
                   Presented a poster of research findings to fellow colleagues and professors.
                   Collaborated in open office environment with other graduate students
                   </p>
@@ -106,8 +114,8 @@
                <h5> <strong> Dr. Gabrielle Rocap, University of Washington School of Oceanography </strong></h5>
                <p> 
                   Conducted research project studying Prochlorococcus.
-                  Utilized Python scripts to process meta genomic data files.
-                  Used spectrophotometer to analyze stock cultures.
+                  <strong> Utilized Python scripts </strong> to process meta genomic data files.
+                  Used <strong> spectrophotometer </strong> analyze stock cultures.
                   Presented a poster of research findings at Mary Gates Undergraduate Research Symposium.
                   </p>
         </div>
@@ -118,8 +126,9 @@
 
     </div>
    <v-footer fixed class="pa-3">
+     About me- I'm a tennis enthusiast, lover of books, and learner of new things!
     <v-spacer></v-spacer>
-    <div> Last Updated 10/18 | Made with Vue JS!</div>
+    <div> Last Updated 10/18 | Made with <a href="https://vuetifyjs.com/"> Vuetify </a> and <a href="https://vuejs.org/"> Vue JS! </a></div>
   </v-footer>
 
   </v-app>
