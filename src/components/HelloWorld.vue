@@ -1,6 +1,6 @@
 <template>
-  <v-app class="container-fluid mb-5">
-    <div class="row ">
+  <v-app>
+    <div class="row mt-5">
       <div class="col-md-8 mx-auto">
 
           <div class="row">
@@ -21,12 +21,12 @@
                   Dr.Rocap in the UW School of Oceanography. In addition to this I have worked on multiple projects 
                   that have developed my engineering skills.
 
-                  <br><br> I love tennis, diving into books, and learning new things
+                  <br><br> I love tennis, diving into books, and learning new things!
                 </p>
 
 
                 <div>
-                  <v-btn v-on:click="emailRedirect()" large color="primary" dark>
+                  <v-btn href="mailto:michael.leem42@gmail.com" large color="primary" dark>
                     Email
                   </v-btn>
                   <v-btn href="https://www.linkedin.com/in/michael-tristin-lee/" large color="blue" dark>Linkedin</v-btn>
@@ -44,12 +44,12 @@
     </div>
 
     <div class="row mt-5">
-        <div class="col-12"> <h4> <strong> Projects </strong> </h4></div>
+        <div class="col-8 mx-auto text-left"> <h4> <strong> Projects </strong> </h4></div>
         
         <br>
 
         <div class="col-8 text-left mx-auto mb-3">
-               <h5> <strong> Sage Bionetworks, Seattle WA </strong></h5>
+               <h5> <strong> Sage Bionetworks, Seattle WA, <a href="https://github.com/leem42/web-mpower-2/tree/feat/vuetify-alternate-checkboxes"> Github of the project </a> </strong></h5>
                <p> 
                  <strong> Front End development with HTML, JS, and CSS </strong> on device agnostic website for 
                  persons afflicted with parkinsons disease. I worked with a UX Designer to create a reactive and responsive website 
@@ -57,9 +57,9 @@
                   material design principles. </strong> 
                </p>
                <p> Though I can't show an actual link to the website (and note that its still under active development) as of the moment I can show a demo of the website in use- </p>
-                <video src="../video/demo_mpower.mp4" class="fillParent" height="240" controls>
-                Your browser does not support the video tag.
-                </video>
+              <div class="text-center"> <iframe src="https://player.vimeo.com/video/239052058" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+                
         </div>
         <div class="col-8 text-left mx-auto">
                <h5> <strong> Data Visualization </strong></h5>
@@ -68,13 +68,14 @@
                  project demonstrating the history of protests in the United States and its impacts to the three branches
                  of government (and conversely so). 
                  <br>
+
                  A link to the project showcase is <a href="https://cse442-17s.github.io/Loud-and-Proud/final/"> here </a>
                </p>
         </div>
     </div>
 
     <div class="row mt-5">
-      <div class="col-12"> <h4> <strong> Research </strong> </h4></div>
+      <div class="col-8 text-left mx-auto"> <h4> <strong> Research </strong> </h4></div>
      
 
         <div class="col-8 text-left mx-auto mb-3">
@@ -84,6 +85,8 @@
                 <strong> Works with AWS; using EC2, S3, and CloudFormation. </strong>
                 <strong> Conducts Machine Learning Study on TCGA Data </strong> to predict gene expression across cancer afflicted patients 
                </p>
+               <p> Github of the project can be found <a href="https://github.com/leem42/cse446"> here </a>. </p>
+               
         </div>
         <div class="col-8 text-left mx-auto mb-3">
                <h5> <strong> Dr. Mona Singh, Princeton University Lewis-Sigler Institue for Integrative Genomics </strong></h5>
@@ -93,6 +96,9 @@
                   Presented a poster of research findings to fellow colleagues and professors.
                   Collaborated in open office environment with other graduate students
                   </p>
+                  <p> Final poster of the results can be viewed 
+                  <a href="https://docs.google.com/presentation/d/e/2PACX-1vTV0vJNLob_f1zjmcQX0CvhDoV4DPkeQdenGdV2BgWnfPIIXFsKBuf9-iMncDP-a3OiHcVOcz_kRu2J/pub?start=false&loop=false&delayms=3000"> here </a>
+                  </p>  
         </div>
         <div class="col-8 text-left mx-auto mb-3">
                <h5> <strong> Dr. Gabrielle Rocap, University of Washington School of Oceanography </strong></h5>
@@ -128,8 +134,7 @@ export default {
   },
   methods: {
     emailRedirect: function () {
-      console.log('called')
-      document.location.href = 'mailto:mail@michael.leem42@gmail.com'
+      window.location.href = 'mailto:michael.leem42@gmail.com'
     }
   }
 }
