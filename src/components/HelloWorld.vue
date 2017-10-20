@@ -4,10 +4,8 @@
       <div class="col-md-8 mx-auto">
 
           <div class="row">
-            <div class="col-md-4">
-              <img class="fillParent img-fluid" src="../images/selfie.png"> </img>
-            </div>
-            <div class="card col-md-8">
+
+            <div class="card col-md-12">
               <div class="card-body">
                 <h3><strong>Michael Tristin Lee</strong></h3>
                 <p> <i><strong> B.S. Computer Science, University of Washington</strong></i>
@@ -126,7 +124,7 @@
 
     </div>
    <v-footer fixed class="pa-3">
-     About me- I'm a tennis enthusiast, lover of books, and learner of new things!
+     About me- I'm a tennis enthusiast, lover of books, and life long learner!
     <v-spacer></v-spacer>
     <div> Last Updated 10/18 | Made with <a href="https://vuetifyjs.com/"> Vuetify </a> and <a href="https://vuejs.org/"> Vue JS! </a></div>
   </v-footer>
