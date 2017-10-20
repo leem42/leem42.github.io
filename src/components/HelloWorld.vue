@@ -7,6 +7,8 @@
             <div class="card col-md-12">
               <div class="card-body">
                 <h3><strong>Michael Tristin Lee</strong></h3>
+                <p> <i><strong> B.S. Computer Science, University of Washington</strong></i></p>
+                <p> <i><strong>Graduation Date: Spring 2018 </strong></i></p>
                 <br>
                 <p class="card-text medium dark-text text-left">
                   I'm a computer science student at the University of Washington.
@@ -30,7 +32,7 @@
                     Email
                   </v-btn>
                   <v-btn href="https://www.linkedin.com/in/michael-tristin-lee/" large color="blue" dark>Linkedin</v-btn>
-                  <v-btn color="error" dark large>Resume</v-btn>
+                  <v-btn a href="https://drive.google.com/open?id=0B-QcR98gGRtSaGhIcjlTREtuclB2NDNBazVReU5JZlN4T1Mw" color="error" dark large>Resume</v-btn>
                   <v-btn href="https://github.com/leem42" color="success" dark large>Github</v-btn>
                 </div>
 
