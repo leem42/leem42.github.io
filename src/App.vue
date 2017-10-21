@@ -21,6 +21,6 @@ export default {
 }
 
 body {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 </style>
