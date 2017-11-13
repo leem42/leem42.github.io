@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "Michael-Lee.WebView-mPower-ios",
+                "paths": [ "*/Test"]
+            }
+        ]
+    }
+}
