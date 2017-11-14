@@ -14,7 +14,7 @@ export default new Router({
     },
     {
       path: '/test',
-      name: 'test ',
+      name: 'test',
       component: TestDeepLink
     }
   ]

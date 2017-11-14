@@ -1,4 +1,4 @@
-webpackJsonp([1],{
+webpackJsonp([0],{
 
 /***/ "07PK":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -308,6 +308,67 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 
 /***/ }),
 
+/***/ "NqnM":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  name: 'HelloWorld',
+  data() {
+    return {
+      msg: 'Hello, this website serves to showcase projects and some of the work that I\'ve completed'
+    };
+  },
+  methods: {
+    emailRedirect: function () {
+      window.location.href = 'mailto:michael.leem42@gmail.com';
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "Q7iW":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "RVdu":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-app',[_c('div',{staticClass:"row mt-5"},[_c('div',{staticClass:"col-md-8 mx-auto"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"card col-md-12 p-0"},[_c('div',{staticClass:"card-body"},[_c('h3',{staticClass:"card-title"},[_c('strong',[_vm._v("Web View of Test App Download Page")])])])])])])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "YaEn":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -315,6 +376,8 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__("7+uW");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__("/ocq");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_HelloWorld__ = __webpack_require__("gORT");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_TestDeepLink__ = __webpack_require__("omdH");
+
 
 
 
@@ -326,6 +389,10 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODU
     path: '/',
     name: 'Hello',
     component: __WEBPACK_IMPORTED_MODULE_2__components_HelloWorld__["a" /* default */]
+  }, {
+    path: '/test',
+    name: 'test',
+    component: __WEBPACK_IMPORTED_MODULE_3__components_TestDeepLink__["a" /* default */]
   }]
 }));
 
@@ -378,6 +445,42 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
+/***/ "omdH":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_TestDeepLink_vue__ = __webpack_require__("NqnM");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_52d79887_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_TestDeepLink_vue__ = __webpack_require__("RVdu");
+function injectStyle (ssrContext) {
+  __webpack_require__("Q7iW")
+}
+var normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+/* template */
+
+/* template functional */
+  var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_TestDeepLink_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_52d79887_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_TestDeepLink_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+
 /***/ "xJD8":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -396,4 +499,4 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.309c41b8f48287221140.js.map
+//# sourceMappingURL=app.1fa3f5af4c30a51dae7d.js.map
