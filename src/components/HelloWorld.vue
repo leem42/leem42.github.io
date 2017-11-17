@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <div class="row mt-5">
-
+      <!-- <a v-on:click="$router.push({name:'test'})"> ToTest </a> -->
       <div class="col-md-8 mx-auto">
         <div class="row">
           <div class="card col-md-12 p-0">
