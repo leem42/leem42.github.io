@@ -2,13 +2,16 @@
   <v-app>
     <div class="row mt-5">
 
-      <div class="col-md-8 mx-auto">
+      <div class="col-md-10 mx-auto">
         <div class="row">
           <div class="card col-md-12 p-0">
             <div class="card-body">
               <h3 class="card-title">
                 <strong>Web View of Test App Download Page</strong>
               </h3>
+              <h3 class="card-title">
+                <a href="https://leem42.github.io/docs/#/test"> Take me to the app!</a>
+             </h3>
             </div>
           </div>
 
