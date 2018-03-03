@@ -30,17 +30,17 @@
 
                 <div class="col-md-8 mt-3">
                   <p class="card-text medium dark-text text-left">
-                    I'm a computer science student at the University of Washington. I have a passion for genomics and its applications in understanding basic biology and diseases.
+                    I'm a computer science student at the University of Washington. My passion is creating software with global impact.                  
                   </p>
                   <p class="card-text medium dark-text text-left">
-                    I have worked in multiple genomics labs, including Dr.Bill Noble in the UW Genome Sciences, Dr.Mona Singh at Princeton University in the Lewis-Sigler Institue For Integrative Genomics, and Dr. Gabrielle Rocap in the UW School of Oceanography. In addition to this I have worked on multiple projects that have developed my engineering skills.
+                    My background has been very interdisciplinary having worked in multiple genomics labs. Including Dr.Bill Noble in the UW Genome Sciences, Dr.Mona Singh at Princeton University in the Lewis-Sigler Institue For Integrative Genomics, and Dr. Gabrielle Rocap in the UW School of Oceanography. In addition to this I have worked on multiple projects listed below.
                   </p>
 
                     <v-btn href="mailto:michael.leem42@gmail.com" large color="primary" dark>
                       Email
                     </v-btn>
                     <v-btn href="https://www.linkedin.com/in/michael-tristin-lee/" large color="blue" dark>Linkedin</v-btn>
-                    <v-btn a href="https://drive.google.com/open?id=0B-QcR98gGRtSaGhIcjlTREtuclB2NDNBazVReU5JZlN4T1Mw" color="error" dark large>Resume</v-btn>
+                    <v-btn a href="https://drive.google.com/file/d/1jkfRjXzTgAiJ08vG8wSfTGhfym6jm4HO/view?usp=sharing" color="error" dark large>Resume</v-btn>
                     <v-btn href="https://github.com/leem42" color="success" dark large>Github</v-btn>
                   </div>
                 </div>
@@ -82,6 +82,32 @@
         </div>
 
       </div>
+      
+      <div class="col-8 text-left mx-auto">
+        <h5>
+          <strong> Women in Informatics (WINFO) Hackathon</strong>
+          <p class="d-inline-block float-right small"> January 2018 </p>
+        </h5>
+        <p>
+          <i> <strong> Overview - </strong></i>
+          Hackathon agenda was to answer the question - <strong> 'What does equality mean to you?' </strong>
+          We answered this by creating a web application called <strong> <i> Ask Away. </i> </strong> The UW has many 
+          large classes (>600 people) which can create high stress and intimidating class environments. To many students, and in particular those
+          of underepresented groups, asking questions can feel too stressful. To address this issue we made a one way chat service that
+          allows students to post anonymous, filtered questions to a feed that a professor can then respond.
+
+          <br>
+          <br>
+          <i><strong> Tech Involved- </strong> </i> Utilized Firebase as a backend, bootstrap for styling, and then vanilla Javascript.
+          We succesfully created our project and pitched it to a panel of judges.
+
+          <br><br> A link to the <strong> project github page is
+          <a href="https://github.com/carowa/winfo-hackathon"> here</a> </strong>, links to the user interface is <a href="https://carowa.github.io/winfo-hackathon/student_view/"> here </a> and the teacher view is
+          <a href="https://carowa.github.io/winfo-hackathon/teacher_view/"> here </a>.
+        </p>
+      </div>
+
+      
       <div class="col-8 text-left mx-auto">
         <h5>
           <strong> Data Visualization </strong>
@@ -96,6 +122,7 @@
           <a href="https://cse442-17s.github.io/Loud-and-Proud/final/"> here </a> </strong>
         </p>
       </div>
+
     </div>
 
     <div class="row mt-3">
@@ -176,7 +203,7 @@
     <v-footer fixed class="pa-3">
       About me- I'm a tennis enthusiast, lover of books, and life long learner!
       <v-spacer></v-spacer>
-      <div> Last Updated 10/22 | Made with
+      <div> Last Updated 4/2/2018 | Made with
         <a href="https://vuetifyjs.com/"> Vuetify </a> and
         <a href="https://vuejs.org/"> Vue JS! </a>
       </div>
