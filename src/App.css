@@ -5,11 +5,11 @@ body * {
 }
 
 html  {
-  height: 100vh;
+  height: 120vh;
 }
 
 .root {
-  min-height: 100vh;
+  min-height: 120vh;
   background-color: #f9f9f9;
 }
 

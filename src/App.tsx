@@ -1,5 +1,6 @@
 import {Header} from './Header'
 import {Projects} from './Projects'
+import {Footer} from './Footer'
 import * as React from 'react';
 import './App.css';
 
@@ -11,6 +12,7 @@ class App extends React.Component {
           <Header/>          
         </div>
         <Projects/>  
+        <Footer/>
       </div>
     );
   }

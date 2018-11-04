@@ -36,7 +36,7 @@ class Header extends React.Component<any,any> {
                       The ambiguity and uncertainty that comes with learning is a welcome feeling and something that I strive
                       to curtail faster and faster as I progress through my career. </p>
                     <p className="mediumText"> As a human, I'm an avid tennis player, an animal lover, and sometimes a half-orc barbarian (chaotic good if you must ask). </p>
-                    <button onClick={this.handleClick("https://www.linkedin.com/in/michael-tristin-lee/")} className="btn btn-primary mr-3" type="button">  Contact </button>
+                    <button onClick={this.handleClick("https://www.linkedin.com/in/michael-tristin-lee/")} className="btn btn-primary mr-3" type="button">  Linkedin </button>
                     <button onClick={this.handleClick("https://github.com/leem42")} className="btn btn-dark" type="button"> <FontAwesomeIcon icon={faGithub}/> Github </button>
                   </div>
                 </div>

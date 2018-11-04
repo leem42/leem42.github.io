@@ -29,7 +29,7 @@ class Projects extends React.Component<any,any> {
     return (
       <React.Fragment>
         <Project title={"Sage Bionetworks,  Seattle WA,  Front End Development"}
-                 timeline={"June 2018 - Present "}
+                 timeline={"July 2018 - Present "}
                   description={`
                     My work is creating react components that allow for customizable views of the Synapse Platform. These views are used
                     to create community portals for scientific communities that Sage has established relationships with. In this work I interact with a 
