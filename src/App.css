@@ -1,3 +1,18 @@
+
+
+body * {
+  font-family: 'Lato', sans-serif;
+}
+
+html  {
+  height: 100vh;
+}
+
+.root {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
 .App {
   text-align: center;
 }
@@ -22,7 +37,15 @@
   font-size: large;
 }
 
+.mediumText {
+  font-size: 18px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.customImg {
+  max-width: -webkit-fill-available;
 }
